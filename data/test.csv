@@ -1,0 +1,501 @@
+text,label
+why is there an extra 197 71 on my bill,billing_issue
+how do i change the email linked to my account,account_access
+is the phone water resistant or just splashproof,product_question
+delivery was promised by 2025 11 03 but still not here,shipping_delay
+tracking hasn t updated since 10 days ago,shipping_delay
+getting error code code 123 whenever i try to connect,tech_support
+app crashes on launch on ios 18,tech_support
+why is there an extra 61 91 on my bill,billing_issue
+the router keeps disconnecting every 20 minutes,tech_support
+how long do refunds take for canceled orders,refund_request
+does this laptop support ram upgrade to 5gb,product_question
+please process my refund the item arrived damaged,refund_request
+why is there an extra 124 75 on my bill,billing_issue
+can t log in after the last update,tech_support
+my order seems stuck at a sorting facility,shipping_delay
+my account is locked after too many attempts,account_access
+delivery was promised by 2025 11 11 but still not here,shipping_delay
+I want to request a refund for my purchase. let me know.,refund_request
+Please initiate a refund. please assist.,refund_request
+I cannot access my account.,account_access
+Account locked — need help. urgent help needed.,account_access
+Troubleshooting is not resolving my problem. urgent help needed.,tech_support
+Unable to sign in to my account. please assist.,account_access
+Unable to sign in to my account.,account_access
+Troubleshooting is not resolving my problem. please assist.,tech_support
+Shipment is late and still not received.,shipping_delay
+Is this product compatible with my device? let me know.,product_question
+I want to request a refund for my purchase.,refund_request
+How can I get my money back? can you check?,refund_request
+Is this product compatible with my device? please assist.,product_question
+Why was I charged extra this month? urgent help needed.,billing_issue
+I need help fixing a technical issue. let me know.,tech_support
+I cannot access my account. can you check?,account_access
+Unable to sign in to my account. can you check?,account_access
+Why was I charged extra this month?,billing_issue
+Please initiate a refund.,refund_request
+How can I get my money back? let me know.,refund_request
+The app keeps crashing. urgent help needed.,tech_support
+Does this item come with warranty? can you check?,product_question
+Troubleshooting is not resolving my problem.,tech_support
+Forgot my login password.,account_access
+Please check my billing details. urgent help needed.,billing_issue
+Does this item come with warranty?,product_question
+How can I get my money back?,refund_request
+I want to request a refund for my purchase. urgent help needed.,refund_request
+My device is not working properly. urgent help needed.,tech_support
+Unable to sign in to my account. can you check?,account_access
+My delivery is taking too long. can you check?,shipping_delay
+Troubleshooting is not resolving my problem. let me know.,tech_support
+I need help fixing a technical issue. let me know.,tech_support
+The app keeps crashing. please assist.,tech_support
+Please initiate a refund.,refund_request
+Why was I charged extra this month? let me know.,billing_issue
+I need help fixing a technical issue. let me know.,tech_support
+The product did not meet expectations; need refund. let me know.,refund_request
+I have a question about the product features. can you check?,product_question
+Shipment is late and still not received. urgent help needed.,shipping_delay
+Shipment is late and still not received. urgent help needed.,shipping_delay
+My delivery is taking too long. can you check?,shipping_delay
+My device is not working properly. urgent help needed.,tech_support
+Forgot my login password. please assist.,account_access
+Need more details about this product. please assist.,product_question
+The app keeps crashing. please assist.,tech_support
+Is this product compatible with my device? urgent help needed.,product_question
+Account locked — need help. please assist.,account_access
+Package has not arrived yet.,shipping_delay
+Does this item come with warranty? please assist.,product_question
+Forgot my login password. can you check?,account_access
+Need more details about this product. can you check?,product_question
+Please check my billing details. please assist.,billing_issue
+Why is my order delayed?,shipping_delay
+I cannot access my account. please assist.,account_access
+Does this item come with warranty? urgent help needed.,product_question
+My device is not working properly.,tech_support
+I want to request a refund for my purchase. please assist.,refund_request
+Why was I charged extra this month? please assist.,billing_issue
+Account locked — need help. please assist.,account_access
+My device is not working properly.,tech_support
+I have a problem with my billing statement. urgent help needed.,billing_issue
+Please initiate a refund.,refund_request
+How can I get my money back? urgent help needed.,refund_request
+Please initiate a refund. let me know.,refund_request
+I need help fixing a technical issue. urgent help needed.,tech_support
+Does this item come with warranty? can you check?,product_question
+Package has not arrived yet. let me know.,shipping_delay
+Why is my order delayed? please assist.,shipping_delay
+Package has not arrived yet. please assist.,shipping_delay
+My invoice amount seems incorrect.,billing_issue
+Need more details about this product. urgent help needed.,product_question
+Why was I charged extra this month? can you check?,billing_issue
+I have a question about the product features. let me know.,product_question
+How can I get my money back? urgent help needed.,refund_request
+Unable to sign in to my account. urgent help needed.,account_access
+I cannot access my account. can you check?,account_access
+Shipment is late and still not received. let me know.,shipping_delay
+My invoice amount seems incorrect. urgent help needed.,billing_issue
+Does this item come with warranty? urgent help needed.,product_question
+My invoice amount seems incorrect. urgent help needed.,billing_issue
+How can I get my money back? can you check?,refund_request
+My device is not working properly.,tech_support
+Package has not arrived yet. can you check?,shipping_delay
+Is this product compatible with my device? let me know.,product_question
+Unable to sign in to my account. please assist.,account_access
+I have a question about the product features. can you check?,product_question
+Shipment is late and still not received.,shipping_delay
+I want to request a refund for my purchase.,refund_request
+Why was I charged extra this month? please assist.,billing_issue
+Package has not arrived yet. can you check?,shipping_delay
+Unable to sign in to my account.,account_access
+Why was I charged extra this month?,billing_issue
+Forgot my login password. let me know.,account_access
+Forgot my login password. let me know.,account_access
+I have a question about the product features. let me know.,product_question
+Troubleshooting is not resolving my problem. urgent help needed.,tech_support
+My delivery is taking too long. please assist.,shipping_delay
+Package has not arrived yet. please assist.,shipping_delay
+Package has not arrived yet. urgent help needed.,shipping_delay
+I need help fixing a technical issue. urgent help needed.,tech_support
+Why was I charged extra this month? urgent help needed.,billing_issue
+The app keeps crashing. please assist.,tech_support
+Package has not arrived yet. please assist.,shipping_delay
+I cannot access my account. urgent help needed.,account_access
+How can I get my money back?,refund_request
+Forgot my login password. please assist.,account_access
+Please check my billing details. can you check?,billing_issue
+Please initiate a refund. please assist.,refund_request
+My device is not working properly. urgent help needed.,tech_support
+The product did not meet expectations; need refund. let me know.,refund_request
+I cannot access my account. can you check?,account_access
+I cannot access my account. urgent help needed.,account_access
+Does this item come with warranty? urgent help needed.,product_question
+Need more details about this product. please assist.,product_question
+I need help fixing a technical issue. please assist.,tech_support
+Why was I charged extra this month? can you check?,billing_issue
+Please check my billing details.,billing_issue
+My delivery is taking too long. can you check?,shipping_delay
+Account locked — need help. please assist.,account_access
+Account locked — need help. please assist.,account_access
+Does this item come with warranty? can you check?,product_question
+Please initiate a refund. please assist.,refund_request
+Does this item come with warranty?,product_question
+Why is my order delayed? please assist.,shipping_delay
+The product did not meet expectations; need refund. urgent help needed.,refund_request
+Forgot my login password. urgent help needed.,account_access
+Why was I charged extra this month? urgent help needed.,billing_issue
+Need more details about this product. please assist.,product_question
+Shipment is late and still not received. urgent help needed.,shipping_delay
+I have a question about the product features. let me know.,product_question
+The app keeps crashing. urgent help needed.,tech_support
+How can I get my money back? urgent help needed.,refund_request
+I need help fixing a technical issue. let me know.,tech_support
+I have a question about the product features. can you check?,product_question
+How can I get my money back? please assist.,refund_request
+My delivery is taking too long. please assist.,shipping_delay
+I need help fixing a technical issue. let me know.,tech_support
+Please initiate a refund. let me know.,refund_request
+Please initiate a refund. urgent help needed.,refund_request
+Unable to sign in to my account. let me know.,account_access
+Package has not arrived yet. can you check?,shipping_delay
+Why is my order delayed? can you check?,shipping_delay
+How can I get my money back? please assist.,refund_request
+Please check my billing details.,billing_issue
+I want to request a refund for my purchase. urgent help needed.,refund_request
+Please initiate a refund. urgent help needed.,refund_request
+I need help fixing a technical issue.,tech_support
+I want to request a refund for my purchase. let me know.,refund_request
+Forgot my login password. can you check?,account_access
+I have a question about the product features. can you check?,product_question
+Need more details about this product. please assist.,product_question
+My delivery is taking too long.,shipping_delay
+Unable to sign in to my account. urgent help needed.,account_access
+I want to request a refund for my purchase. please assist.,refund_request
+Why was I charged extra this month? urgent help needed.,billing_issue
+Does this item come with warranty?,product_question
+How can I get my money back? please assist.,refund_request
+Please check my billing details.,billing_issue
+The product did not meet expectations; need refund. let me know.,refund_request
+Package has not arrived yet. urgent help needed.,shipping_delay
+My delivery is taking too long. please assist.,shipping_delay
+I have a problem with my billing statement.,billing_issue
+Please check my billing details. urgent help needed.,billing_issue
+Why is my order delayed? please assist.,shipping_delay
+I have a problem with my billing statement. let me know.,billing_issue
+Why is my order delayed? can you check?,shipping_delay
+My invoice amount seems incorrect.,billing_issue
+Why is my order delayed? please assist.,shipping_delay
+Is this product compatible with my device? urgent help needed.,product_question
+Does this item come with warranty? urgent help needed.,product_question
+Why was I charged extra this month? can you check?,billing_issue
+Please initiate a refund.,refund_request
+I have a problem with my billing statement.,billing_issue
+Forgot my login password. let me know.,account_access
+I have a problem with my billing statement.,billing_issue
+Unable to sign in to my account. can you check?,account_access
+Please initiate a refund. urgent help needed.,refund_request
+Is this product compatible with my device?,product_question
+I have a question about the product features. urgent help needed.,product_question
+The product did not meet expectations; need refund. urgent help needed.,refund_request
+My device is not working properly. let me know.,tech_support
+Forgot my login password. urgent help needed.,account_access
+Shipment is late and still not received. can you check?,shipping_delay
+Unable to sign in to my account. please assist.,account_access
+Forgot my login password.,account_access
+Why was I charged extra this month? can you check?,billing_issue
+My invoice amount seems incorrect. can you check?,billing_issue
+My invoice amount seems incorrect. please assist.,billing_issue
+I have a question about the product features.,product_question
+Account locked — need help. can you check?,account_access
+Need more details about this product.,product_question
+Does this item come with warranty? please assist.,product_question
+Troubleshooting is not resolving my problem. urgent help needed.,tech_support
+The app keeps crashing. can you check?,tech_support
+Troubleshooting is not resolving my problem. let me know.,tech_support
+The app keeps crashing.,tech_support
+Please initiate a refund. urgent help needed.,refund_request
+I need help fixing a technical issue. urgent help needed.,tech_support
+Does this item come with warranty?,product_question
+Troubleshooting is not resolving my problem. please assist.,tech_support
+Troubleshooting is not resolving my problem. let me know.,tech_support
+I have a question about the product features. urgent help needed.,product_question
+Package has not arrived yet.,shipping_delay
+Why was I charged extra this month? let me know.,billing_issue
+Troubleshooting is not resolving my problem. urgent help needed.,tech_support
+Unable to sign in to my account. please assist.,account_access
+How can I get my money back? please assist.,refund_request
+Why was I charged extra this month?,billing_issue
+I need help fixing a technical issue.,tech_support
+Forgot my login password. please assist.,account_access
+Please initiate a refund. urgent help needed.,refund_request
+Please check my billing details. let me know.,billing_issue
+Why was I charged extra this month? urgent help needed.,billing_issue
+My delivery is taking too long. please assist.,shipping_delay
+Please initiate a refund.,refund_request
+I have a question about the product features. urgent help needed.,product_question
+My delivery is taking too long. urgent help needed.,shipping_delay
+I have a question about the product features.,product_question
+Does this item come with warranty? can you check?,product_question
+I want to request a refund for my purchase. can you check?,refund_request
+Package has not arrived yet.,shipping_delay
+Shipment is late and still not received. let me know.,shipping_delay
+Why is my order delayed? let me know.,shipping_delay
+Please check my billing details.,billing_issue
+Please check my billing details. can you check?,billing_issue
+Please check my billing details. let me know.,billing_issue
+Account locked — need help. urgent help needed.,account_access
+My invoice amount seems incorrect. can you check?,billing_issue
+Account locked — need help. please assist.,account_access
+Package has not arrived yet.,shipping_delay
+Shipment is late and still not received. let me know.,shipping_delay
+Account locked — need help.,account_access
+How can I get my money back? please assist.,refund_request
+Why was I charged extra this month? let me know.,billing_issue
+I have a problem with my billing statement. can you check?,billing_issue
+Forgot my login password. urgent help needed.,account_access
+Is this product compatible with my device? please assist.,product_question
+Does this item come with warranty? can you check?,product_question
+Unable to sign in to my account.,account_access
+Package has not arrived yet. please assist.,shipping_delay
+Is this product compatible with my device? can you check?,product_question
+Why was I charged extra this month? urgent help needed.,billing_issue
+Why is my order delayed? can you check?,shipping_delay
+Forgot my login password. let me know.,account_access
+Account locked — need help. urgent help needed.,account_access
+Forgot my login password. please assist.,account_access
+Why was I charged extra this month? let me know.,billing_issue
+I cannot access my account. let me know.,account_access
+I have a problem with my billing statement. please assist.,billing_issue
+Account locked — need help. urgent help needed.,account_access
+How can I get my money back? can you check?,refund_request
+My invoice amount seems incorrect.,billing_issue
+I need help fixing a technical issue. please assist.,tech_support
+The app keeps crashing. can you check?,tech_support
+The app keeps crashing. can you check?,tech_support
+Package has not arrived yet. can you check?,shipping_delay
+Troubleshooting is not resolving my problem. urgent help needed.,tech_support
+My invoice amount seems incorrect. let me know.,billing_issue
+I cannot access my account. urgent help needed.,account_access
+Please check my billing details. urgent help needed.,billing_issue
+Does this item come with warranty? please assist.,product_question
+Please initiate a refund. please assist.,refund_request
+The product did not meet expectations; need refund. urgent help needed.,refund_request
+Shipment is late and still not received. can you check?,shipping_delay
+I cannot access my account. let me know.,account_access
+My delivery is taking too long. urgent help needed.,shipping_delay
+The product did not meet expectations; need refund. please assist.,refund_request
+My delivery is taking too long.,shipping_delay
+The product did not meet expectations; need refund.,refund_request
+Forgot my login password. let me know.,account_access
+The product did not meet expectations; need refund. please assist.,refund_request
+Troubleshooting is not resolving my problem. please assist.,tech_support
+Please check my billing details. urgent help needed.,billing_issue
+Unable to sign in to my account. let me know.,account_access
+My invoice amount seems incorrect. let me know.,billing_issue
+Shipment is late and still not received. can you check?,shipping_delay
+Is this product compatible with my device? can you check?,product_question
+Forgot my login password. urgent help needed.,account_access
+I have a question about the product features. can you check?,product_question
+I cannot access my account. please assist.,account_access
+The app keeps crashing. urgent help needed.,tech_support
+My invoice amount seems incorrect.,billing_issue
+I have a problem with my billing statement.,billing_issue
+I have a problem with my billing statement. let me know.,billing_issue
+The app keeps crashing.,tech_support
+Please initiate a refund.,refund_request
+The product did not meet expectations; need refund. please assist.,refund_request
+Troubleshooting is not resolving my problem. please assist.,tech_support
+I need help fixing a technical issue.,tech_support
+How can I get my money back? let me know.,refund_request
+How can I get my money back? please assist.,refund_request
+The product did not meet expectations; need refund. please assist.,refund_request
+Forgot my login password. can you check?,account_access
+I need help fixing a technical issue. can you check?,tech_support
+I have a question about the product features.,product_question
+I cannot access my account. urgent help needed.,account_access
+Forgot my login password. please assist.,account_access
+Why is my order delayed? urgent help needed.,shipping_delay
+Is this product compatible with my device? urgent help needed.,product_question
+Why is my order delayed? please assist.,shipping_delay
+The product did not meet expectations; need refund. let me know.,refund_request
+Does this item come with warranty? can you check?,product_question
+Shipment is late and still not received. can you check?,shipping_delay
+How can I get my money back? can you check?,refund_request
+How can I get my money back? urgent help needed.,refund_request
+I want to request a refund for my purchase. let me know.,refund_request
+Please initiate a refund. please assist.,refund_request
+Package has not arrived yet. urgent help needed.,shipping_delay
+Package has not arrived yet. can you check?,shipping_delay
+Please check my billing details. let me know.,billing_issue
+Package has not arrived yet. please assist.,shipping_delay
+I need help fixing a technical issue. can you check?,tech_support
+I need help fixing a technical issue. please assist.,tech_support
+The product did not meet expectations; need refund. can you check?,refund_request
+The product did not meet expectations; need refund. can you check?,refund_request
+I need help fixing a technical issue. urgent help needed.,tech_support
+Troubleshooting is not resolving my problem. let me know.,tech_support
+Need more details about this product. can you check?,product_question
+I have a problem with my billing statement. urgent help needed.,billing_issue
+Does this item come with warranty?,product_question
+Is this product compatible with my device? let me know.,product_question
+I have a question about the product features. please assist.,product_question
+Forgot my login password.,account_access
+Account locked — need help. urgent help needed.,account_access
+Does this item come with warranty? please assist.,product_question
+My invoice amount seems incorrect. can you check?,billing_issue
+How can I get my money back?,refund_request
+Why was I charged extra this month? let me know.,billing_issue
+I want to request a refund for my purchase. please assist.,refund_request
+Please check my billing details. can you check?,billing_issue
+Troubleshooting is not resolving my problem.,tech_support
+My invoice amount seems incorrect. urgent help needed.,billing_issue
+Why is my order delayed? can you check?,shipping_delay
+My invoice amount seems incorrect. can you check?,billing_issue
+Why is my order delayed? urgent help needed.,shipping_delay
+I have a problem with my billing statement. please assist.,billing_issue
+How can I get my money back? urgent help needed.,refund_request
+I have a problem with my billing statement. urgent help needed.,billing_issue
+I cannot access my account. urgent help needed.,account_access
+I need help fixing a technical issue. let me know.,tech_support
+Please check my billing details.,billing_issue
+Need more details about this product. urgent help needed.,product_question
+My invoice amount seems incorrect. can you check?,billing_issue
+Unable to sign in to my account. can you check?,account_access
+The product did not meet expectations; need refund. urgent help needed.,refund_request
+Please check my billing details.,billing_issue
+How can I get my money back? can you check?,refund_request
+Why was I charged extra this month? let me know.,billing_issue
+The app keeps crashing. let me know.,tech_support
+Please check my billing details.,billing_issue
+Is this product compatible with my device? let me know.,product_question
+Does this item come with warranty? urgent help needed.,product_question
+Account locked — need help.,account_access
+I need help fixing a technical issue. can you check?,tech_support
+Why is my order delayed? let me know.,shipping_delay
+I have a problem with my billing statement. can you check?,billing_issue
+Need more details about this product.,product_question
+The product did not meet expectations; need refund. urgent help needed.,refund_request
+The app keeps crashing. urgent help needed.,tech_support
+Does this item come with warranty? can you check?,product_question
+Troubleshooting is not resolving my problem.,tech_support
+Why was I charged extra this month? can you check?,billing_issue
+The product did not meet expectations; need refund.,refund_request
+Unable to sign in to my account.,account_access
+The product did not meet expectations; need refund. let me know.,refund_request
+Please check my billing details. let me know.,billing_issue
+Account locked — need help. please assist.,account_access
+The product did not meet expectations; need refund. can you check?,refund_request
+Why is my order delayed?,shipping_delay
+I need help fixing a technical issue. please assist.,tech_support
+How can I get my money back? please assist.,refund_request
+My delivery is taking too long. can you check?,shipping_delay
+Need more details about this product. urgent help needed.,product_question
+Shipment is late and still not received.,shipping_delay
+Package has not arrived yet. can you check?,shipping_delay
+Forgot my login password. please assist.,account_access
+Is this product compatible with my device? urgent help needed.,product_question
+Shipment is late and still not received. can you check?,shipping_delay
+The app keeps crashing. can you check?,tech_support
+Why was I charged extra this month?,billing_issue
+Troubleshooting is not resolving my problem.,tech_support
+Why is my order delayed? urgent help needed.,shipping_delay
+Unable to sign in to my account. please assist.,account_access
+Does this item come with warranty? let me know.,product_question
+Account locked — need help. urgent help needed.,account_access
+Forgot my login password. urgent help needed.,account_access
+Shipment is late and still not received. please assist.,shipping_delay
+Does this item come with warranty? please assist.,product_question
+Is this product compatible with my device? can you check?,product_question
+I need help fixing a technical issue. let me know.,tech_support
+Need more details about this product. let me know.,product_question
+Does this item come with warranty? can you check?,product_question
+Why was I charged extra this month?,billing_issue
+Forgot my login password. can you check?,account_access
+Is this product compatible with my device? can you check?,product_question
+Troubleshooting is not resolving my problem. let me know.,tech_support
+I want to request a refund for my purchase. let me know.,refund_request
+I want to request a refund for my purchase. please assist.,refund_request
+I cannot access my account. please assist.,account_access
+How can I get my money back? can you check?,refund_request
+I want to request a refund for my purchase. can you check?,refund_request
+I need help fixing a technical issue. please assist.,tech_support
+Account locked — need help. please assist.,account_access
+My delivery is taking too long. let me know.,shipping_delay
+Need more details about this product. can you check?,product_question
+My device is not working properly. please assist.,tech_support
+The app keeps crashing. please assist.,tech_support
+Please check my billing details. let me know.,billing_issue
+Why was I charged extra this month?,billing_issue
+Please check my billing details. let me know.,billing_issue
+Why was I charged extra this month?,billing_issue
+Is this product compatible with my device? urgent help needed.,product_question
+Need more details about this product. please assist.,product_question
+My invoice amount seems incorrect. urgent help needed.,billing_issue
+Forgot my login password. urgent help needed.,account_access
+The product did not meet expectations; need refund. please assist.,refund_request
+Please check my billing details.,billing_issue
+I cannot access my account. urgent help needed.,account_access
+My invoice amount seems incorrect. let me know.,billing_issue
+How can I get my money back? please assist.,refund_request
+The product did not meet expectations; need refund. let me know.,refund_request
+The product did not meet expectations; need refund. let me know.,refund_request
+I want to request a refund for my purchase.,refund_request
+I cannot access my account.,account_access
+Does this item come with warranty? please assist.,product_question
+Package has not arrived yet. please assist.,shipping_delay
+I have a problem with my billing statement.,billing_issue
+The app keeps crashing. let me know.,tech_support
+Forgot my login password. let me know.,account_access
+Is this product compatible with my device?,product_question
+Account locked — need help. urgent help needed.,account_access
+I need help fixing a technical issue. can you check?,tech_support
+I have a problem with my billing statement. please assist.,billing_issue
+Is this product compatible with my device? urgent help needed.,product_question
+The app keeps crashing. urgent help needed.,tech_support
+Is this product compatible with my device? urgent help needed.,product_question
+I want to request a refund for my purchase. let me know.,refund_request
+I cannot access my account. can you check?,account_access
+I cannot access my account. please assist.,account_access
+My invoice amount seems incorrect. urgent help needed.,billing_issue
+Package has not arrived yet. please assist.,shipping_delay
+My device is not working properly.,tech_support
+I need help fixing a technical issue. let me know.,tech_support
+Unable to sign in to my account. urgent help needed.,account_access
+Why is my order delayed? can you check?,shipping_delay
+I cannot access my account. can you check?,account_access
+Is this product compatible with my device? urgent help needed.,product_question
+I have a problem with my billing statement.,billing_issue
+Does this item come with warranty? urgent help needed.,product_question
+Is this product compatible with my device? let me know.,product_question
+I cannot access my account. let me know.,account_access
+Why is my order delayed? urgent help needed.,shipping_delay
+I have a question about the product features. let me know.,product_question
+Forgot my login password. please assist.,account_access
+Account locked — need help.,account_access
+The app keeps crashing. please assist.,tech_support
+Please initiate a refund. urgent help needed.,refund_request
+I have a question about the product features. urgent help needed.,product_question
+Package has not arrived yet. can you check?,shipping_delay
+Please check my billing details.,billing_issue
+Please check my billing details.,billing_issue
+Troubleshooting is not resolving my problem.,tech_support
+Unable to sign in to my account. can you check?,account_access
+Why was I charged extra this month? urgent help needed.,billing_issue
+The app keeps crashing.,tech_support
+Troubleshooting is not resolving my problem. urgent help needed.,tech_support
+I have a question about the product features.,product_question
+Unable to sign in to my account.,account_access
+I cannot access my account. please assist.,account_access
+The product did not meet expectations; need refund. urgent help needed.,refund_request
+I want to request a refund for my purchase. please assist.,refund_request
+Troubleshooting is not resolving my problem. let me know.,tech_support
+I need help fixing a technical issue. let me know.,tech_support
+My invoice amount seems incorrect. urgent help needed.,billing_issue
+I need help fixing a technical issue. urgent help needed.,tech_support
+The app keeps crashing. can you check?,tech_support
+My device is not working properly.,tech_support
+My delivery is taking too long. let me know.,shipping_delay
+I have a question about the product features.,product_question
+I have a problem with my billing statement. can you check?,billing_issue
+Unable to sign in to my account. can you check?,account_access
+I have a problem with my billing statement. please assist.,billing_issue
