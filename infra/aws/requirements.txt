@@ -1,0 +1,17 @@
+# Core ML Libraries
+torch==2.1.2
+transformers==4.36.2
+peft==0.7.1
+accelerate==0.25.0
+bitsandbytes==0.42.0 # Essential for 8-bit/4-bit quantization
+scipy
+numpy
+
+# Server Libraries
+Flask==3.0.0
+gunicorn==21.2.0 # Production WSGI server
+requests==2.31.0
+python-dotenv==1.0.0 # Optional, but good practice
+
+# Observability/Utility
+langsmith==0.1.0 # If you implemented LangSmith tracing
