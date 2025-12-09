@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Intent Classifier</title>
+    <!-- Load Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        // Tailwind configuration for aesthetics
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#007bff',
+                        'danger': '#dc3545',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom styles for card shadow and intent indicator */
+        body {
+            background-color: #f7f9fb;
+        }
+        .card {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+        .intent-box {
+            /* Blue border (primary color) as a strong visual indicator */
+            border-left: 5px solid #007bff;
+        }
+        /* Capitalize the first letter of the predicted intent label */
+        .capitalize-label::first-letter {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body class="font-sans min-h-screen flex items-center justify-center p-4">
+
+    <div class="w-full max-w-2xl bg-white card rounded-xl p-8 space-y-6">
+        <h1 class="text-3xl font-bold text-center text-gray-800">Customer Intent Classifier</h1>
+        <p class="text-center text-gray-500">
+            Enter a customer service request to classify its intent using the fine-tuned Mistral model.
+        </p>
+
+        <!-- Input Section -->
+        <div>
+            <label for="query" class="block text-sm font-medium text-gray-700 mb-2">Customer Request:</label>
+            <textarea id="query" rows="4"
+                      class="w-full p-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-150"
+                      placeholder="e.g., I need help setting up my new router, it won't connect to the internet."></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button id="classifyButton" disabled
+                class="w-full py-3 px-4 rounded-lg text-white font-semibold bg-primary hover:bg-blue-700 transition duration-150 flex items-center justify-center space-x-2 disabled:bg-gray-400">
+            <svg id="buttonIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+            <span id="buttonText">Classify Intent</span>
+        </button>
+
+        <!-- Loading State -->
+        <div id="loading" class="hidden text-center text-gray-500 mt-4">
+            <div class="flex items-center justify-center space-x-2">
+                <div class="animate-spin rounded-full h-5 w-5 border-b-2 border-primary"></div>
+                <span>Analyzing Request...</span>
+            </div>
+        </div>
+
+        <!-- Result Section -->
+        <div id="resultContainer" class="hidden space-y-4">
+            <h2 class="text-xl font-semibold text-gray-800 border-b pb-2">Prediction Results</h2>
+
+            <div id="intentDisplay" class="intent-box bg-blue-50 p-4 rounded-lg">
+                <p class="text-sm font-medium text-gray-600">Predicted Intent:</p>
+                <!-- Predicted intent is shown here -->
+                <p class="text-2xl font-bold text-primary capitalize-label" id="predictedIntent">---</p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 text-sm text-gray-600">
+                <div class="p-2 bg-gray-50 rounded">
+                    <strong>Latency:</strong> <span id="latency">--</span> ms
+                </div>
+                <div class="p-2 bg-gray-50 rounded">
+                    <strong>Request ID:</strong> <span id="requestId">--</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorContainer" class="hidden bg-danger/10 text-danger p-3 rounded-lg border border-danger">
+            <p id="errorMessage" class="font-medium">Error: API call failed.</p>
+            <p class="text-xs mt-1">Check the URL and ensure the Flask server is running and the model is loaded.</p>
+        </div>
+    </div>
+
+    <script>
+        // --- CRITICAL CONFIGURATION ---
+        // 1. Ngrok URL for the running Flask server. This is the latest URL you provided.
+        const API_BASE_URL = 'https://15b0d5476561.ngrok-free.app';
+        // 2. The full API endpoint, which MUST include '/infer'
+        const API_FULL_URL = `${API_BASE_URL}/infer`;
+        // ------------------------------
+
+        // Get all necessary DOM elements
+        const classifyButton = document.getElementById('classifyButton');
+        const queryTextarea = document.getElementById('query');
+        const loadingDiv = document.getElementById('loading');
+        const resultContainer = document.getElementById('resultContainer');
+        const errorContainer = document.getElementById('errorContainer');
+        const predictedIntent = document.getElementById('predictedIntent');
+        const latency = document.getElementById('latency');
+        const requestId = document.getElementById('requestId');
+        const errorMessage = document.getElementById('errorMessage');
+
+        // Event listener to enable/disable button based on text input
+        queryTextarea.addEventListener('input', () => {
+            classifyButton.disabled = queryTextarea.value.trim().length === 0;
+        });
+
+        // Event listener for the Classification button click
+        classifyButton.addEventListener('click', async () => {
+            const text = queryTextarea.value.trim();
+            if (!text) return;
+
+            // 1. Setup UI for loading state
+            resultContainer.classList.add('hidden');
+            errorContainer.classList.add('hidden');
+            loadingDiv.classList.remove('hidden');
+            classifyButton.disabled = true;
+            document.getElementById('buttonText').textContent = 'Analyzing...';
+            document.getElementById('buttonIcon').classList.add('hidden');
+
+            const currentRequestId = crypto.randomUUID();
+
+            try {
+                const payload = {
+                    text: text,
+                    request_id: currentRequestId
+                };
+
+                // 2. Make the API request
+                const response = await fetch(API_FULL_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                // 3. Robust Error/JSON Check
+                const contentType = response.headers.get("content-type");
+                if (!response.ok || !contentType || contentType.indexOf("application/json") === -1) {
+                    const textResponse = await response.text();
+                    throw new Error(`Connection Error or Invalid Response. Status: ${response.status}. Check Ngrok URL or Flask server status.`);
+                }
+
+                const result = await response.json();
+
+                if (result.error) {
+                    throw new Error(result.error);
+                }
+
+                // 4. Success: Update UI with results
+                // Replace underscores with spaces for clean display
+                predictedIntent.textContent = result.output.replace(/_/g, ' ');
+                latency.textContent = result.latency_ms;
+                requestId.textContent = result.request_id.substring(0, 8);
+
+                resultContainer.classList.remove('hidden');
+
+            } catch (e) {
+                // 5. Failure: Show specific error message
+                console.error("API Error:", e);
+                errorMessage.textContent = `Error: ${e.message}`;
+                errorContainer.classList.remove('hidden');
+
+            } finally {
+                // 6. Cleanup
+                loadingDiv.classList.add('hidden');
+                classifyButton.disabled = queryTextarea.value.trim().length === 0;
+                document.getElementById('buttonText').textContent = 'Classify Intent';
+                document.getElementById('buttonIcon').classList.remove('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
